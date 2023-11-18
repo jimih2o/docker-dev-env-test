@@ -3,7 +3,7 @@ uname -a
 
 apt update -y
 apt upgrade -y
-apt install -y git curl wget libice6 libsm6 libx11-xcb1 libxkbcommon-x11-0
+apt install -y git curl wget libice6 libsm6 libx11-xcb1 libxkbcommon-x11-0 openocd
 dpkg --configure -a 
 apt-get install -f
 
